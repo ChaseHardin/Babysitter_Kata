@@ -6,34 +6,22 @@ namespace Babysitter.Business.Tests.GenerateReceipt
     [TestClass]
     public class GenerateReceiptTests
     {
-        [TestMethod]
-        public void Calculate__works_for_one_hour__returns_total()
+        private GenerateReceiptService _generateReceiptService;
+        
+        [TestInitialize]
+        public void Setup()
         {
-            var generateReceiptService = new GenerateReceiptService();
-
-            var actual = generateReceiptService.Calculate(1);
-            
-            Assert.AreEqual(12, actual);
+            _generateReceiptService = new GenerateReceiptService();
         }
 
         [TestMethod]
-        public void Calculate__works_for_two_hours__returns_total()
+        public void Calculate_takes_hours_worked__returns_total()
         {
-            var generateReceiptService = new GenerateReceiptService();
-
-            var actual = generateReceiptService.Calculate(2);
-            
-            Assert.AreEqual(24, actual);
-        }
-
-        [TestMethod]
-        public void Calculate__works_for_three_hours__returns_total()
-        {
-            var generateReceiptService = new GenerateReceiptService();
-
-            var actual = generateReceiptService.Calculate(3);
-            
-            Assert.AreEqual(36, actual);
+            Assert.AreEqual(12, _generateReceiptService.Calculate(1));
+            Assert.AreEqual(24, _generateReceiptService.Calculate(2));
+            Assert.AreEqual(36, _generateReceiptService.Calculate(3));
+            Assert.AreEqual(48, _generateReceiptService.Calculate(4));
+            Assert.AreEqual(60, _generateReceiptService.Calculate(5));
         }
     }
 }
