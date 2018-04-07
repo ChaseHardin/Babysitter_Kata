@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babysitter.Business", "Babysitter.Business\Babysitter.Business.csproj", "{51675994-39D9-4DEE-B4A2-D130D793AA3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babysitter.Business.Tests", "Babysitter.Business.Tests\Babysitter.Business.Tests.csproj", "{A132FBCF-4E60-4846-A015-A9F0D51F37E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51675994-39D9-4DEE-B4A2-D130D793AA3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51675994-39D9-4DEE-B4A2-D130D793AA3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51675994-39D9-4DEE-B4A2-D130D793AA3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51675994-39D9-4DEE-B4A2-D130D793AA3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A132FBCF-4E60-4846-A015-A9F0D51F37E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A132FBCF-4E60-4846-A015-A9F0D51F37E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A132FBCF-4E60-4846-A015-A9F0D51F37E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A132FBCF-4E60-4846-A015-A9F0D51F37E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

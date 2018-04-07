@@ -1,0 +1,15 @@
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/bin/Debug/netcoreapp2.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/bin/Debug/netcoreapp2.0/Babysitter.Business.Tests.deps.json
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/bin/Debug/netcoreapp2.0/Babysitter.Business.Tests.runtimeconfig.json
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/bin/Debug/netcoreapp2.0/Babysitter.Business.Tests.runtimeconfig.dev.json
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/bin/Debug/netcoreapp2.0/Babysitter.Business.Tests.dll
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/bin/Debug/netcoreapp2.0/Babysitter.Business.Tests.pdb
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/bin/Debug/netcoreapp2.0/Babysitter.Business.dll
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/bin/Debug/netcoreapp2.0/Babysitter.Business.pdb
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/obj/Debug/netcoreapp2.0/Babysitter.Business.Tests.csproj.CoreCompileInputs.cache
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/obj/Debug/netcoreapp2.0/Babysitter.Business.Tests.AssemblyInfoInputs.cache
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/obj/Debug/netcoreapp2.0/Babysitter.Business.Tests.AssemblyInfo.cs
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/obj/Debug/netcoreapp2.0/Babysitter.Business.Tests.dll
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/obj/Debug/netcoreapp2.0/Babysitter.Business.Tests.pdb

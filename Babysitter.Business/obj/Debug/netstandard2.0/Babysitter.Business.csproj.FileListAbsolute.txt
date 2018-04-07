@@ -1,0 +1,8 @@
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business/bin/Debug/netstandard2.0/Babysitter.Business.deps.json
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business/bin/Debug/netstandard2.0/Babysitter.Business.dll
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business/bin/Debug/netstandard2.0/Babysitter.Business.pdb
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business/obj/Debug/netstandard2.0/Babysitter.Business.csproj.CoreCompileInputs.cache
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business/obj/Debug/netstandard2.0/Babysitter.Business.AssemblyInfoInputs.cache
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business/obj/Debug/netstandard2.0/Babysitter.Business.AssemblyInfo.cs
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business/obj/Debug/netstandard2.0/Babysitter.Business.dll
+/Users/chase.hardin/dev/Babysitter/Babysitter.Business/obj/Debug/netstandard2.0/Babysitter.Business.pdb

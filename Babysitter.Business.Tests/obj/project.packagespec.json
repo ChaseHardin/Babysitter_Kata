@@ -1,0 +1,59 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/Babysitter.Business.Tests.csproj",
+    "projectName": "Babysitter.Business.Tests",
+    "projectPath": "/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/Babysitter.Business.Tests.csproj",
+    "outputPath": "/Users/chase.hardin/dev/Babysitter/Babysitter.Business.Tests/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.0"
+    ],
+    "frameworks": {
+      "netcoreapp2.0": {
+        "projectReferences": {
+          "/Users/chase.hardin/dev/Babysitter/Babysitter.Business/Babysitter.Business.csproj": {
+            "projectPath": "/Users/chase.hardin/dev/Babysitter/Babysitter.Business/Babysitter.Business.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.0": {
+      "dependencies": {
+        "MSTest.TestAdapter": {
+          "target": "Package",
+          "version": "[1.1.18, )"
+        },
+        "MSTest.TestFramework": {
+          "target": "Package",
+          "version": "[1.1.18, )"
+        },
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[15.3.0-preview-20170628-02, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.0, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
