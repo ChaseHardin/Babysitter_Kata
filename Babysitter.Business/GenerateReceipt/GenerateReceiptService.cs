@@ -6,8 +6,12 @@ namespace Babysitter.Business.GenerateReceipt
     {
         public int Calculate(DateTime startTime, DateTime endTime)
         {
-            var hoursWorked = endTime.Subtract(startTime);
-            return (int) (hoursWorked.TotalHours * 12);
+            return (int) (HoursWorked(startTime, endTime).TotalHours * 12);
+        }
+
+        private static TimeSpan HoursWorked(DateTime startTime, DateTime endTime)
+        {
+            return endTime.Subtract(startTime);
         }
     }
 }
