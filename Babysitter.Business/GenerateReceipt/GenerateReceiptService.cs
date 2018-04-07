@@ -4,14 +4,41 @@ namespace Babysitter.Business.GenerateReceipt
 {
     public class GenerateReceiptService
     {
-        public int Calculate(DateTime startTime, DateTime endTime)
+        private readonly int _hourlyRate;
+        private readonly int _hourlySleepingRate;
+
+        public GenerateReceiptService(int hourlyRate, int hourlySleepingRate)
         {
-            return (int) (HoursWorked(startTime, endTime).TotalHours * 12);
+            _hourlyRate = hourlyRate;
+            _hourlySleepingRate = hourlySleepingRate;
         }
 
-        private static TimeSpan HoursWorked(DateTime startTime, DateTime endTime)
+        public int Calculate(DateTime startTime, DateTime endTime, DateTime bedTime)
         {
-            return endTime.Subtract(startTime);
+            var totalHours = HoursWorked(startTime, endTime);
+            var totalBedtimeHours = HoursWorked(bedTime, endTime);
+
+            return HasSleepingHours(totalBedtimeHours)
+                ? totalHours * _hourlyRate
+                : RateWithBedtime(totalBedtimeHours, totalHours);
+        }
+
+        private int RateWithBedtime(int bedtimeHours, int totalSittingHours)
+        {
+            var bedTimeRate = bedtimeHours * _hourlySleepingRate;
+            var hourlyRate = (totalSittingHours - bedtimeHours) * _hourlyRate;
+            
+            return bedTimeRate + hourlyRate;
+        }
+
+        private static bool HasSleepingHours(int hours)
+        {
+            return hours < 0;
+        }
+        
+        private static int HoursWorked(DateTime startTime, DateTime endTime)
+        {
+            return (int) endTime.Subtract(startTime).TotalHours;
         }
     }
 }
