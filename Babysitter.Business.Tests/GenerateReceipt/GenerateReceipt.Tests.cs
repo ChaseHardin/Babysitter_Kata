@@ -25,5 +25,15 @@ namespace Babysitter.Business.Tests.GenerateReceipt
             
             Assert.AreEqual(24, actual);
         }
+
+        [TestMethod]
+        public void Calculate__works_for_three_hours__returns_total()
+        {
+            var generateReceiptService = new GenerateReceiptService();
+
+            var actual = generateReceiptService.Calculate(3);
+            
+            Assert.AreEqual(36, actual);
+        }
     }
 }

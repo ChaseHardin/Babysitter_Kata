@@ -4,7 +4,7 @@
     {
         public int Calculate(int hoursWorked)
         {
-            return hoursWorked == 1 ? 12 : 24;
+            return hoursWorked * 12;
         }
     }
 }
