@@ -1,10 +1,13 @@
-﻿namespace Babysitter.Business.GenerateReceipt
+﻿using System;
+
+namespace Babysitter.Business.GenerateReceipt
 {
     public class GenerateReceiptService
     {
-        public int Calculate(int hoursWorked)
+        public int Calculate(DateTime startTime, DateTime endTime)
         {
-            return hoursWorked * 12;
+            var hoursWorked = endTime.Subtract(startTime);
+            return (int) (hoursWorked.TotalHours * 12);
         }
     }
 }
