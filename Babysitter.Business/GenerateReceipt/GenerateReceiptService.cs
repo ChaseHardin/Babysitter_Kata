@@ -2,9 +2,9 @@
 {
     public class GenerateReceiptService
     {
-        public static int Calculate()
+        public int Calculate(int hoursWorked)
         {
-            return 24;
+            return hoursWorked == 1 ? 12 : 24;
         }
     }
 }

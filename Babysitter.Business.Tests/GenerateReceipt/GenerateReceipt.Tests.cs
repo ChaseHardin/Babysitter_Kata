@@ -11,7 +11,17 @@ namespace Babysitter.Business.Tests.GenerateReceipt
         {
             var generateReceiptService = new GenerateReceiptService();
 
-            var actual = GenerateReceiptService.Calculate();
+            var actual = generateReceiptService.Calculate(1);
+            
+            Assert.AreEqual(12, actual);
+        }
+
+        [TestMethod]
+        public void Calculate__works_for_two_hours__returns_total()
+        {
+            var generateReceiptService = new GenerateReceiptService();
+
+            var actual = generateReceiptService.Calculate(2);
             
             Assert.AreEqual(24, actual);
         }
